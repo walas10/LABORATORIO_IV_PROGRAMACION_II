@@ -1,9 +1,9 @@
 # PROGRESO - LABORATORIO IV
 
-- [ ] Ejercicio 01 - Sistema de Animales
-- [ ] Ejercicio 02 - Sistema de Vehículos
-- [ ] Ejercicio 03 - Sistema de Pagos
-- [ ] Ejercicio 04 - Sistema de Biblioteca
+- [x] Ejercicio 01 - Sistema de Animales
+- [x] Ejercicio 02 - Sistema de Vehículos
+- [x] Ejercicio 03 - Sistema de Pagos
+- [x] Ejercicio 04 - Sistema de Biblioteca
 - [ ] Ejercicio 05 - Validación de Edad
 - [ ] Ejercicio 06 - División Segura
 - [ ] Ejercicio 07 - Entrada Numérica
