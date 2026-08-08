@@ -1,0 +1,33 @@
+@startuml diagrama_clases
+title Sistema de estudiantes - Diagrama de clases
+
+class Persona {
+    - nombre: String
+    - edad: int
+    + Persona(nombre: String, edad: int)
+    + getNombre(): String
+    + getEdad(): int
+    + mostrarInformacion(): void
+}
+
+class Estudiante {
+    - carnet: String
+    + Estudiante(nombre: String, edad: int, carnet: String)
+    + getCarnet(): String
+    + inscribirse(curso: Curso): void
+    + mostrarInformacion(): void
+}
+
+class Curso {
+    - codigo: String
+    - nombre: String
+    + Curso(codigo: String, nombre: String)
+    + getCodigo(): String
+    + getNombre(): String
+    + agregarEstudiante(estudiante: Estudiante): void
+}
+
+Persona <|-- Estudiante
+Estudiante "0..*" -- "0..*" Curso : se inscribe en
+
+@enduml

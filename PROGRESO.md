@@ -12,7 +12,7 @@
 - [x] Ejercicio 10 - Estadísticas Básicas
 - [x] Ejercicio 11 - Clasificación de Edad
 - [x] Ejercicio 12 - Menú Básico
-- [ ] Ejercicio 13 - Diagrama de Clases
-- [ ] Ejercicio 14 - Diagrama de Secuencia
+- [x] Ejercicio 13 - Diagrama de Clases
+- [x] Ejercicio 14 - Diagrama de Secuencia
 - [ ] Ejercicio 15 - Sistema de Empleados
 - [ ] Ejercicio 16 - Sistema de Productos

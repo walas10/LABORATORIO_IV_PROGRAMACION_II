@@ -1,0 +1,17 @@
+@startuml diagrama_secuencia
+title Consulta de información de un estudiante
+
+actor Usuario
+participant Sistema
+participant "Servicio de estudiantes" as Servicio
+
+Usuario -> Sistema : consultarEstudiante(carnet)
+activate Sistema
+Sistema -> Servicio : buscarEstudiante(carnet)
+activate Servicio
+Servicio --> Sistema : datosDelEstudiante
+deactivate Servicio
+Sistema --> Usuario : mostrarInformacion(datosDelEstudiante)
+deactivate Sistema
+
+@enduml
