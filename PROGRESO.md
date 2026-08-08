@@ -14,5 +14,5 @@
 - [x] Ejercicio 12 - Menú Básico
 - [x] Ejercicio 13 - Diagrama de Clases
 - [x] Ejercicio 14 - Diagrama de Secuencia
-- [ ] Ejercicio 15 - Sistema de Empleados
-- [ ] Ejercicio 16 - Sistema de Productos
+- [x] Ejercicio 15 - Sistema de Empleados
+- [x] Ejercicio 16 - Sistema de Productos
